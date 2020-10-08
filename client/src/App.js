@@ -4,6 +4,8 @@ import { Navbar, Nav, Image } from 'react-bootstrap';
 import './App.css';
 
 import airshipAlbatrossFlag from './images/airship-albatross-flag.jpg';
+
+import Homepage from './pages/homepage/homepage';
 function App() {
   return (
     <Router>
@@ -20,6 +22,11 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

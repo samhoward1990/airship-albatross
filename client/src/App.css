@@ -3,6 +3,11 @@ body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: "steam";
+    src: url("./fonts/Bleeding_Cowboys.ttf");
+}
+
 button {
    background-image: url("./images/parchment-link.jpg");
    background-size: cover;
@@ -11,4 +16,13 @@ button {
    font-family: 'Courier New', Courier, monospace;
    font-size: x-large;
    font-weight: bold;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.main-header {
+    font-family: "steam";
 }
