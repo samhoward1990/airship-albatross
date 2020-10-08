@@ -1,0 +1,14 @@
+body {
+    background-image: url("./images/parchment-background.jpg");
+    background-size: cover;
+}
+
+button {
+   background-image: url("./images/parchment-link.jpg");
+   background-size: cover;
+   padding: 8px;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: x-large;
+   font-weight: bold;
+}
