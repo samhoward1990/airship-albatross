@@ -6,6 +6,8 @@ import './App.css';
 import airshipAlbatrossFlag from './images/airship-albatross-flag.jpg';
 
 import Homepage from './pages/homepage/homepage';
+import Photos from './pages/photos/photos';
+
 function App() {
   return (
     <Router>
@@ -14,7 +16,7 @@ function App() {
           <Link to="/"><Navbar.Brand><Image src={airshipAlbatrossFlag} width="200px" height="auto" /></Navbar.Brand></Link>
           <Navbar.Toggle aria-controls="absic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="mr-auto">
               <Link to="/"><button className="mr-2">Home</button></Link>
               <Link to="/crew"><button className="mr-2">Crew</button></Link>
               <Link to="/photos"><button className="mr-2">Photos</button></Link>
@@ -25,6 +27,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Homepage />
+          </Route>
+          <Route path="/photos">
+            <Photos />
           </Route>
         </Switch>
       </div>

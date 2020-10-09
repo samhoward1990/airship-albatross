@@ -26,3 +26,18 @@ p {
 .main-header {
     font-family: "steam";
 }
+
+.styled-modal-header {
+    background-image: url("./images/parchment-link.jpg");
+    background-size: cover;
+}
+
+.styled-modal {
+    background-image: url("./images/parchment-background.jpg");
+    background-size: cover;
+}
+.cropped {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
