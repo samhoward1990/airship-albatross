@@ -22,16 +22,16 @@ class Photos extends React.Component {
         return (
             <Container>
                 <Row>
-                    <Col lg="3">
-                        <Image className="cropped" src={crewAtSpn} fluid onClick={this.handleOpen} />
+                    <Col xs="6" lg="3">
+                        <Image className="cropped mb-3" src={crewAtSpn} fluid onClick={this.handleOpen} />
                     </Col>
-                    <Col lg="3">
-                        <Image className="cropped" src={benandTrish} fluid onClick={this.handleOpen} />
+                    <Col xs="6" lg="3">
+                        <Image className="cropped mb-3" src={benandTrish} fluid onClick={this.handleOpen} />
                     </Col>
-                    <Col lg="3">
+                    <Col xs="6" lg="3">
                         <Image className="cropped" src={captainInJail} fluid onClick={this.handleOpen} />
                     </Col>
-                    <Col lg="3">
+                    <Col xs="6" lg="3">
                         <Image className="cropped" src={tiffBenJosh} fluid onClick={this.handleOpen} />
                     </Col>
                 </Row>
