@@ -7,6 +7,7 @@ import airshipAlbatrossFlag from './images/airship-albatross-flag.jpg';
 
 import Homepage from './pages/homepage/homepage';
 import Photos from './pages/photos/photos';
+import Contact from './pages/contact/contact';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/photos">
             <Photos />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>
